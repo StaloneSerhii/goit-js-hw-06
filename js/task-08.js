@@ -10,11 +10,14 @@ function onSerch (evt) {
        
         alert('Enter the your data!')
     }
-    console.log(login.value);
-console.log(password.value);
 
+   const data = {
+    login: email.value,
+    password: password.value
+    
+   } 
+
+   console.log(data)
 
 }
-
-
 
