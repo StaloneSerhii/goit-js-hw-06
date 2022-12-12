@@ -17,6 +17,7 @@ function onSerch (evt) {
     
    } 
 
+   evt.currentTarget.reset()
    console.log(data)
 
 }
