@@ -8,7 +8,7 @@ function onSerch (evt) {
     const {email, password} = evt.currentTarget.elements
     if (!email.value || !password.value) {
        
-        alert('Enter the your data!')
+      return  alert('Enter the your data!')
     }
 
    const data = {
@@ -18,7 +18,7 @@ function onSerch (evt) {
    } 
 
    evt.currentTarget.reset()
-   console.log(data)
+      console.log(data)
 
 }
 
