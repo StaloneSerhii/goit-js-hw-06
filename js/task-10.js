@@ -2,7 +2,6 @@ function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
 }
 
-const inputValueAll = document.querySelector('#controls');
 const inputValue = document.querySelector('input')
 const inputCreate = document.querySelector('button[data-create]');
 const inputDestroy = document.querySelector('button[data-destroy]');
@@ -23,13 +22,10 @@ function amount (e) {
 
   stat = e.currentTarget.value
 
-  console.log(e.currentTarget.value)
 
 }
 
 function creatDiv () {
-
-  console.log(stat)
 
   for (let i = 0; i < stat; i++) {
 
@@ -39,15 +35,8 @@ function creatDiv () {
   
     widthH += 10;
 
-    // const x = document.querySelector('div[data-filtr]')
-
-    // x.style.width= widthH + 'px';
-    // x.style.height= widthH + 'px';
-    // x.style.backgroundColor = 'black';
  }
 }
-
-
 
 function destroyBoxes() {
 
