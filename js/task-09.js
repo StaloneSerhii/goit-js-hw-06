@@ -8,7 +8,7 @@ const btnChange = document.querySelector('button');
 const text = document.querySelector('.color')
 
 btnChange.addEventListener('click', onState)
-
+console.log(btnChange);
 function onState () {
   const random = getRandomHexColor()
   target.style.backgroundColor = random
