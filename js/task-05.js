@@ -3,7 +3,7 @@ const changeSpan = document.querySelector('#name-output')
 
 inputVall.addEventListener('input', getInput)
 
-function tInput(evn) {
+function getInput(evn) {
     if (!evn.currentTarget.value) {
         changeSpan.textContent = 'Anonymouse'
 } else {

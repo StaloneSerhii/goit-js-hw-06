@@ -14,14 +14,15 @@ const images = [
 ];
 
 
-const imagesList = document.querySelector('ul.gallery');
+const imagesList = document.querySelector('.gallery');
 
 
 const imgList = images.map(({url, alt}) => 
 
-`<li><img class ="img" src=${url} alt=${alt} width=${640} height=${430}>`
+`<li><img class ="image" src="${url}" alt="${alt}" width=${640} height=${430}>`
 
-).join('');
+
+).join("");
 
 
 
